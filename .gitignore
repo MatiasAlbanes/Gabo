@@ -1,0 +1,30 @@
+node_modules
+.next
+.env
+.env.local
+.env.*.local
+.env.test
+*.tsbuildinfo
+next-env.d.ts
+playwright-report
+test-results
+.vercel
+.stack-data
+.open-next
+.wrangler
+.dev.vars
+
+# Dependencias
+node_modules/
+.next/
+
+# Credenciales
+.env
+.env.local
+.env.*.local
+
+# Archivos generados
+test-results/
+playwright-report/
+.wrangler/
+*.tsbuildinfo
