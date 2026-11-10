@@ -58,7 +58,7 @@ npm run stack:down                       # lo elimina
 2. **Base de datos:** aplicá las migraciones, en orden, de cualquiera de estas dos formas:
    - *Con la CLI:* `npx supabase login`, `npx supabase link --project-ref TU_REF`, `npx supabase db push`.
    - *Sin CLI:* en el **SQL Editor** de Supabase pegá y ejecutá, en este orden, el contenido de
-     `supabase/migrations/20261109000001_schema.sql`, `…000002_security.sql` y `…000003_booking_functions.sql`.
+     `supabase/migrations/20261109000001_schema.sql`, `…000002_security.sql`, `…000003_booking_functions.sql` y `…000004_service_role_grants.sql`.
 3. **Claves** (Project Settings → API): copiá `Project URL`, `anon public` y `service_role` a las variables de entorno:
 
    | Variable | Valor | Notas |
